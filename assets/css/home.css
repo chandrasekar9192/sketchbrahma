@@ -1,27 +1,5 @@
-/* Common  Css*/
-body {
-  margin: 0px;
-}
-ul {
-  list-style: none;
-  padding-left: 0px;
-  margin-bottom: 0px;
-}
-h1,
-h2,
-h3,
-h4,
-span,
-label,
-p,
-li {
-  margin-bottom: 0px;
-}
-a {
-  text-decoration: none;
-}
 /* Home Sections */
-.sketch-brahma-home {
+.home-heading-sections {
   background-color: #2100ff;
   height: 100vh;
 }
@@ -29,6 +7,7 @@ a {
   list-style: none;
   display: block;
   padding: 0px;
+  margin: 0px;
   text-align: center;
 }
 .list-unstyled li {
@@ -65,22 +44,6 @@ a {
   line-height: 33px;
   margin: 0 auto;
   margin-bottom: 55px;
-}
-.red-button {
-  background: linear-gradient(177.68deg, #ff3c2b 0, #ee06a6 100%);
-  color: #fff;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'Gotham-medium';
-  letter-spacing: 1.97px;
-  line-height: 28px;
-  border-radius: 2px;
-  padding: 15px;
-}
-.red-button svg {
-  width: 25px;
-  vertical-align: top;
-  margin-left: 10px;
 }
 /* Left side Company Name */
 .company-name {
@@ -152,21 +115,6 @@ a {
   font-size: 40px;
   margin: 0px 0px 40px 0px;
 }
-.button {
-  cursor: pointer;
-  background: #fff;
-  color: #ff005c;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'gotham-medium';
-  letter-spacing: 1.97px;
-  line-height: 28px;
-  padding: 15px 0;
-  min-width: 265px;
-  text-align: center;
-  margin: 0 auto;
-  display: inline-block;
-}
 .footer-sections {
   background-color: #290aff;
   display: flex;
@@ -180,10 +128,10 @@ a {
   font-size: 16px;
   margin-bottom: 13px;
 }
-.company-details {
+.footer-details {
   flex-basis: 33%;
 }
-.company-details p {
+.footer-details p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 17px;
   line-height: 28px;
@@ -191,25 +139,25 @@ a {
   width: 85%;
   margin-top: 17px;
 }
-.company-details ul li {
+.footer-details ul li {
   display: block;
   padding: 0px;
   margin-bottom: 18px;
 }
-.company-details ul li label {
+.footer-details ul li label {
   line-height: 22px;
   font-family: 'gotham-medium';
   color: #fff;
   font-size: 16px;
   padding-left: 15px;
 }
-.company-details ul li a {
+.footer-details ul li a {
   line-height: 22px;
   font-family: 'gotham-medium';
   color: #fff;
   font-size: 16px;
 }
-.company-details ul li a:hover {
+.footer-details ul li a:hover {
   color: #ff005c;
 }
 /* our Recent Work */
@@ -226,10 +174,12 @@ a {
 }
 .card {
   margin-bottom: 80px;
+  overflow: hidden;
 }
 .card-img {
   height: 349px;
   width: 397px;
+  overflow: hidden;
 }
 .card-img.center-card-img {
   height: 474px;

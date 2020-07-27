@@ -1,0 +1,23 @@
+/* Common  Css*/
+body {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+span,
+label,
+p,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.button {
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'gotham-medium';
+  letter-spacing: 1.97px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+.red-button {
+  background: linear-gradient(177.68deg, #ff3c2b 0, #ee06a6 100%);
+  color: #fff;
+  border-radius: 2px;
+  padding: 15px 20px;
+}
+.red-button svg {
+  width: 25px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.white-button {
+  background: #fff;
+  color: #ff005c;
+  padding: 15px 0;
+  min-width: 265px;
+}
