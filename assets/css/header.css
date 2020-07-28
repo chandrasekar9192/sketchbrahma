@@ -1,0 +1,18 @@
+.header-list ul {
+  list-style: none;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.list-unstyled li {
+  display: inline-block;
+  padding: 25px;
+}
+.list-unstyled li a {
+  font-family: 'gotham-book';
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}

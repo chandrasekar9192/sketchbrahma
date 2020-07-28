@@ -3,24 +3,6 @@
   background-color: #2100ff;
   height: 100vh;
 }
-.header-list ul {
-  list-style: none;
-  display: block;
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-}
-.list-unstyled li {
-  display: inline-block;
-  padding: 25px;
-}
-.list-unstyled li a {
-  font-family: 'gotham-book';
-  color: #fff;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-}
 /* Banner Text Sections */
 .banner-sections {
   position: absolute;
@@ -114,51 +96,6 @@
   font-family: 'gotham-book';
   font-size: 40px;
   margin: 0px 0px 40px 0px;
-}
-.footer-sections {
-  background-color: #290aff;
-  display: flex;
-  justify-content: space-around;
-  padding: 80px;
-}
-.footer-sections h2 {
-  line-height: 40px;
-  font-family: 'gotham-book';
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 13px;
-}
-.footer-details {
-  flex-basis: 33%;
-}
-.footer-details p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 17px;
-  line-height: 28px;
-  font-family: 'gotham-medium';
-  width: 85%;
-  margin-top: 17px;
-}
-.footer-details ul li {
-  display: block;
-  padding: 0px;
-  margin-bottom: 18px;
-}
-.footer-details ul li label {
-  line-height: 22px;
-  font-family: 'gotham-medium';
-  color: #fff;
-  font-size: 16px;
-  padding-left: 15px;
-}
-.footer-details ul li a {
-  line-height: 22px;
-  font-family: 'gotham-medium';
-  color: #fff;
-  font-size: 16px;
-}
-.footer-details ul li a:hover {
-  color: #ff005c;
 }
 /* our Recent Work */
 .company-work {
