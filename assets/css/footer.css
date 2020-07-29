@@ -1,8 +1,9 @@
 .footer-sections {
   background-color: #290aff;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding: 80px;
+  flex-wrap: wrap;
 }
 .footer-sections h2 {
   line-height: 40px;
@@ -42,4 +43,22 @@
 }
 .footer-details ul li a:hover {
   color: #ff005c;
+}
+.development {
+  display: flex;
+}
+.development h4 {
+  line-height: 22px;
+  font-family: 'gotham-book';
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.development ul li {
+  line-height: 22px;
+  font-family: 'gotham-medium';
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 16px;
 }
