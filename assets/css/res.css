@@ -38,9 +38,6 @@
   outline: none !important;
 }
 @media only screen and (max-width: 768px) {
-  .brand-card-logo-wrap {
-    justify-content: space-around;
-  }
   .brand-card-logo.brand-logo-mobile-hide {
     display: none;
   }
