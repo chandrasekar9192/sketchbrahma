@@ -87,6 +87,9 @@
   .welcome-card h1 {
     margin-bottom: 19px;
   }
+  .pf-detail-list {
+    padding-bottom: 12px;
+  }
   /* .pf-detail-list span {
     flex-basis: 13%;
   } */

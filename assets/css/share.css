@@ -1,0 +1,50 @@
+.welcome-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  min-height: 183px;
+}
+.welcome-card h1 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+.welcome-card p {
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(33, 37, 41, 0.8);
+}
+:global(.share-btn) {
+  border: 1px solid rgba(21, 24, 175, 0.15);
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1518af;
+  padding: 8px 0px;
+}
+:global(.share-btn) span {
+  margin-right: 7px;
+}
+:global(.share-btn:focus) {
+  outline: none !important;
+}
+.share-media-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.share-media-wrap :global(.share-btn) {
+  flex-basis: 48%;
+}
+@media only screen and (max-width: 768px) {
+  .welcome-card {
+    padding: 15px;
+  }
+  .welcome-card h1 {
+    margin-bottom: 10px;
+  }
+}
