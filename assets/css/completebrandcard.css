@@ -66,4 +66,7 @@
   .missed-investment {
     display: none;
   }
+  .brand-card-logo.brand-logo-mobile-hide {
+    display: none;
+  }
 }
