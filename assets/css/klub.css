@@ -50,3 +50,35 @@
 .performance.yellow span {
   color: #fdcb57;
 }
+/* june returns */
+.brand-descripyion .returns {
+  display: flex;
+  justify-content: space-between;
+}
+.brand-descripyion .returns label {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #1518af;
+}
+.performance-det ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.4px solid #979797;
+  padding: 13px 0px;
+}
+.performance-det ul li:last-child {
+  border-bottom: none;
+}
+.performance-det ul li label {
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+}
+.performance-det ul span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+}
