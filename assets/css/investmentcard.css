@@ -1,0 +1,54 @@
+.welcome-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 180px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.welcome-card h1 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 34px;
+}
+.investment-detail-wrap {
+  display: flex;
+}
+.investment-detail {
+  display: flex;
+}
+.in-dl-content {
+  padding-left: 15px;
+}
+.in-dl-content label {
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(33, 37, 41, 0.6);
+  margin-bottom: 8px;
+}
+.in-dl-content span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #212529;
+}
+@media only screen and (max-width: 768px) {
+  .welcome-card h1 {
+    display: none;
+  }
+  .welcome-card {
+    padding: 15px;
+  }
+  .in-dl-img.in-dl-img-mobile {
+    display: none;
+  }
+  .in-dl-content {
+    padding-left: 0px;
+    display: grid;
+  }
+  .investment-detail-wrap {
+    justify-content: space-between;
+  }
+}
