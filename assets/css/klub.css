@@ -1,0 +1,52 @@
+.klub {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 530px;
+  height: 234px;
+}
+.brand-descripyion {
+  padding: 22px;
+}
+.brand-descripyion h2 {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #202224;
+}
+.p-img {
+  display: inline-block;
+}
+.performance-det {
+  margin-top: 10px;
+}
+.performance {
+  padding: 12px 0px;
+  border-bottom: 0.4px solid #979797;
+}
+.performance:last-child {
+  border-bottom: none;
+}
+.performance label {
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+  padding-left: 20px;
+}
+.performance span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  float: right;
+}
+.performance.green span {
+  color: #33c5af;
+}
+.performance.red span {
+  color: #fd7676;
+}
+.performance.yellow span {
+  color: #fdcb57;
+}
