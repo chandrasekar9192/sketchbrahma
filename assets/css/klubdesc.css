@@ -38,9 +38,43 @@
 :global(.view-btn:focus) {
   outline: none !important;
 }
-/* responsive code */
+@media only screen and (max-width: 850px) {
+  .klub-desc {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .klub-desc.block-calander p {
+    margin-bottom: 15px;
+  }
+  .klub-desc.block-calander:after {
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .klub-desc:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
 @media only screen and (max-width: 768px) {
   .klub-desc {
+    padding: 15px;
     margin-bottom: 15px;
+  }
+  .klub-desc.block-calander p {
+    margin-bottom: 15px;
+  }
+  .klub-desc.block-calander:after {
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .klub-desc:after {
+    content: '';
+    clear: both;
+    display: table;
   }
 }

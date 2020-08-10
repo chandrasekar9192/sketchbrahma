@@ -1,0 +1,13 @@
+.welcome-notes-wrap {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 850px) {
+  .welcome-notes-wrap {
+    border: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-notes-wrap {
+    border: none;
+  }
+}

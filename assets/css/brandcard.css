@@ -37,36 +37,53 @@
 :global(.view-btn:focus) {
   outline: none !important;
 }
-.missed-investment {
-  font-size: 12px;
-  font-style: italic;
-  line-height: 16px;
-  color: #db1438;
-  padding: 4px 12px;
-  border: 1px solid rgba(219, 20, 56, 0.5);
-  border-radius: 13.5px;
-  margin-left: 12px;
-}
-.missed-investment.missed-investment-mobile {
-  display: none;
-}
-.brand-card-logo {
-  opacity: 0.5;
+@media only screen and (max-width: 850px) {
+  .welcome-card {
+    padding: 15px;
+    min-height: initial;
+    margin-bottom: 15px;
+  }
+  .brand-card-logo-wrap {
+    justify-content: space-around;
+  }
+  .brand-card-logo.mob-hide {
+    display: none;
+  }
+  .brand-card-logo img {
+    width: 85%;
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .brand-card::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
 }
 @media only screen and (max-width: 768px) {
   .welcome-card {
     padding: 15px;
+    min-height: initial;
+    margin-bottom: 15px;
   }
-  .missed-investment.missed-investment-mobile {
-    display: block;
-    border: none;
-    padding: 0px 0px 4px;
-    margin: 0px;
+  .brand-card-logo-wrap {
+    justify-content: space-around;
   }
-  .missed-investment {
+  .brand-card-logo.mob-hide {
     display: none;
   }
-  .brand-card-logo.brand-logo-mobile-hide {
-    display: none;
+  .brand-card-logo img {
+    width: 85%;
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .brand-card::after {
+    content: '';
+    clear: both;
+    display: table;
   }
 }
