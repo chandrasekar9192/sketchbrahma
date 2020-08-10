@@ -1,0 +1,30 @@
+.current-reward-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.reward-text {
+  padding: 20px;
+}
+.reward-text span {
+  font-size: 10px;
+  line-height: 14px;
+  color: #000000;
+  background: #f3f3f3;
+  border-radius: 40px;
+  padding: 5px 20px;
+}
+.reward-text h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 20px 0px 7px;
+  color: #212529;
+}
+.reward-text p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #212529;
+  opacity: 0.8;
+}
