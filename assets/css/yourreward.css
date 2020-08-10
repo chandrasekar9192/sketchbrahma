@@ -1,0 +1,65 @@
+.your-reward {
+  display: flex;
+  justify-content: space-between;
+}
+.your-reward-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+  flex-basis: 32%;
+}
+.your-reward-logo span {
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+}
+.your-reward-text {
+  margin-bottom: 20px;
+}
+.your-reward-text h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #212529;
+  padding: 13px 0px 10px;
+}
+.your-reward-text p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #212529;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+.your-reward-text a {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1518af;
+  cursor: pointer;
+}
+.your-reward-code {
+  display: flex;
+  justify-content: space-between;
+}
+.reward-code-left span {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1518af;
+  border: 0.7px solid #1518af;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+.reward-code-right span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fc707e;
+  background: rgba(255, 148, 159, 0.06);
+  border: 0.7px dashed #ff949f;
+  box-sizing: border-box;
+  padding: 9px 13px;
+  cursor: pointer;
+}

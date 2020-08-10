@@ -1,8 +1,16 @@
+.current-reward {
+  display: flex;
+  justify-content: space-around;
+}
 .current-reward-card {
   background: #ffffff;
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   border-radius: 5px;
+  flex-basis: 32%;
+}
+.reward-img {
+  margin-bottom: 16px;
 }
 .reward-text {
   padding: 20px;

@@ -1,3 +1,7 @@
+.reward-card {
+  display: flex;
+  justify-content: space-between;
+}
 .welcome-card {
   border: 1px solid #e5e5e5;
   border-radius: 5px;
@@ -5,6 +9,7 @@
   min-height: 180px;
   margin-bottom: 30px;
   position: relative;
+  flex-basis: 29%;
 }
 .welcome-card h1 {
   color: #000000;
