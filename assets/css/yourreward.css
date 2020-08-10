@@ -63,3 +63,12 @@
   padding: 9px 13px;
   cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .your-reward {
+    flex-wrap: wrap;
+  }
+  .your-reward-card {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}
