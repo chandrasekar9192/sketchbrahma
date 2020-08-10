@@ -1,0 +1,109 @@
+.welcome-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.welcome-card h1 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+.welcome-card p {
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(33, 37, 41, 0.8);
+  margin-bottom: 0px;
+}
+:global(.view-btn.refer-btn) {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  color: #1518af;
+  padding: 0px;
+  outline: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+:global(.view-btn) span {
+  display: inline-block;
+  padding-left: 7px;
+}
+:global(.view-btn:focus) {
+  outline: none !important;
+}
+.refer-card-detail {
+  position: relative;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.refer-card-detail:nth-child(1) {
+  padding-top: 0px;
+  margin-bottom: 20px;
+  border: none;
+}
+@media only screen and (max-width: 850px) {
+  :global(.view-btn.refer-btn) {
+    position: initial;
+    float: right;
+  }
+  .refer-card-detail:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .welcome-card {
+    padding: 0px;
+    border: none;
+    margin-bottom: 0px;
+  }
+  .welcome-card p {
+    margin-bottom: 15px;
+  }
+  .refer-card-detail {
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+  }
+  .refer-card-detail:nth-child(1) {
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  :global(.view-btn.refer-btn) {
+    position: initial;
+    float: right;
+  }
+  .refer-card-detail:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .welcome-card {
+    padding: 0px;
+    border: none;
+    margin-bottom: 0px;
+  }
+  .welcome-card p {
+    margin-bottom: 15px;
+  }
+  .refer-card-detail {
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+  }
+  .refer-card-detail:nth-child(1) {
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+  }
+}

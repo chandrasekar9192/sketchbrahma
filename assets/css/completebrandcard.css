@@ -1,0 +1,119 @@
+.welcome-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 180px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.welcome-card h1 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+.brand-card-logo-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+:global(.view-btn) {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  color: #1518af;
+  padding: 0px;
+  outline: 0;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+:global(.view-btn) span {
+  display: inline-block;
+  padding-left: 7px;
+}
+:global(.view-btn:focus) {
+  outline: none !important;
+}
+.missed-investment {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 16px;
+  color: #db1438;
+  padding: 4px 12px;
+  border: 1px solid rgba(219, 20, 56, 0.5);
+  border-radius: 13.5px;
+  margin-left: 12px;
+}
+.brand-card-logo {
+  opacity: 0.5;
+}
+.missed-investment.web-hide {
+  display: none;
+}
+@media only screen and (max-width: 850px) {
+  .welcome-card {
+    min-height: initial;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .brand-card-logo.mob-hide {
+    display: none;
+  }
+  .brand-card-logo img {
+    width: 85%;
+  }
+  .missed-investment {
+    display: block;
+    border: none;
+    padding: 0px 0px 4px;
+    margin: 0px;
+    padding-bottom: 7px;
+  }
+  .missed-investment.mob-hide {
+    display: none;
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .brand-card::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-card {
+    min-height: initial;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .brand-card-logo.mob-hide {
+    display: none;
+  }
+  .brand-card-logo img {
+    width: 85%;
+  }
+  .missed-investment {
+    display: block;
+    border: none;
+    padding: 0px 0px 4px;
+    margin: 0px;
+    padding-bottom: 7px;
+  }
+  .missed-investment.mob-hide {
+    display: none;
+  }
+  :global(.view-btn) {
+    position: initial;
+    float: right;
+  }
+  .brand-card::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}

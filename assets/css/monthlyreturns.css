@@ -1,0 +1,117 @@
+.welcome-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 180px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.welcome-card h1 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 42px;
+}
+.monthly-returns-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.monthly-returns-heading label {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #1518af;
+}
+.mt-rt-detail {
+}
+.mt-rt-detail ul {
+  padding: 0px;
+}
+.mt-rt-detail ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.4px solid rgba(151, 151, 151, 0.4);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.mt-rt-detail ul li:nth-child(1) {
+  padding-top: 0px;
+}
+.mt-rt-detail ul li:last-child {
+  padding-bottom: 0px;
+  border: none;
+}
+.mt-rt-detail ul li label {
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+  margin: 0px;
+}
+.mt-rt-detail ul span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #212529;
+}
+@media only screen and (max-width: 850px) {
+  .welcome-card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .monthly-returns-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+  }
+  .mt-rt-detail ul {
+    margin-bottom: 0px;
+  }
+  .mt-rt-detail ul li {
+    border-bottom: none;
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+  .mt-rt-detail ul li:nth-child(1) {
+    padding-top: 15px;
+  }
+  .welcome-card h1 {
+    margin: 0px;
+  }
+  .monthly-returns-heading label {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .monthly-returns-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+  }
+  .mt-rt-detail ul {
+    margin-bottom: 0px;
+  }
+  .mt-rt-detail ul li {
+    border-bottom: none;
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+  .mt-rt-detail ul li:nth-child(1) {
+    padding-top: 15px;
+  }
+  .welcome-card h1 {
+    margin: 0px;
+  }
+  .monthly-returns-heading label {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mt-rt-detail ul li label,
+  .mt-rt-detail ul li span {
+    font-size: 12px;
+  }
+}
